@@ -1,9 +1,84 @@
-form{
-  
-}
-body{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.news1 {
+    margin-top: 50px;
+    position: relative;
+    font-family: "Roboto", sans-serif;
     display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;  
+    flex-direction: column;
+    text-align: center;
+    background-color: #77adff;
+    border-radius: 100px;
+    /*/*top: -450px; /*/
+}
+
+.news2 {
+    margin-top: 50px;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #77adff;
+    border-radius: 100px;
+    /*/top: -350px;/*/
+}
+
+.news3 {
+    margin-top: 50px;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #77adff;
+    border-radius: 100px;
+    /*/top: -350px;/*/
+}
+
+.h2 {
+    font-family: "Newsreader", serif;
+}
+
+.slider {
+    background-color: #77adff;
+    color: #77adff;
+    border-color: #77adff;
+    border-radius: 100px;
+    height: 1000px;
+}
+
+.menu {
+    width: calc(100vw - 6em);
+    padding: 3em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #000000 !important;
+}
+
+.menu_item {
+    padding: 1em;
+    text-decoration: none;
+    color:#000000 !important
+}
+
+header {
+    background-color: #acd0ff;
+    color:#000000 !important;
+    width: 100%;
+    position: relative;
+    border-radius: 100px;
+}
+
+body {
+    background-color: #a0b6ff;
+    overflow-x: hidden;
+}
+
+.img {
+    position: relative;
+    left: 50%;
+    display: block;
+    margin: auto;
 }

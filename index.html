@@ -1,49 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <body>
-    <header>
-        <nav class="links">
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </nav>
+    <header class="header">
+        <div class="menu">
+            <div class="menu_item"><a class="scroll" href="#block1">блок 1</a></div>
+            <div class="menu_item"><a class="scroll" href="#block2">блок 2</a></div>
+            <div class="menu_item"><a class="scroll" href="#block3">блок 3</a></div>
     </header>
     <main>
+        <div class="news1">
+                <h2>В Челябинске произвели первую в РФ партию труб большого диаметра с лазерным швом</h2>
+                <p>
+                    Трубы диаметром 1420 миллиметров и классом прочности стали К60
+                    изготовлены на стане ГЛДС, расположенном в цехе в Челябинске,
+                    и предназначены для ремонта участка магистрального газопровода в ХМАО,
+                    сообщили в региональном минпроме.
+                </p>
+                    <div class="slider">
+                        <div><img src="pictures/truby-1000_832.jpg"></div>
+                        <div><img src="pictures/images.jpg"></div>
 
-        <div class="news">
-            <h2>В Челябинске произвели первую в РФ партию труб большого диаметра с лазерным швом</h2>
-            <div>
-            <p>
-                Трубы диаметром 1420 миллиметров и классом прочности стали К60
-                изготовлены на стане ГЛДС, расположенном в цехе в Челябинске,
-                и предназначены для ремонта участка магистрального газопровода в ХМАО,
-                сообщили в региональном минпроме.
-            </p>
-                <img src="truby-1000_832.jpg" alt="">
+                    </div>
         </div>
-        <div class="news">
-            <h2>Только щепки летят: Перехватчики "Елка" таранят любой беспилотник</h2>
-            <p>
-                "Елка" - компактный дрон, способный с большой точностью уничтожать цели на дистанции до нескольких километров.
-                Поражает как малые мультироторные агрокоптеры и FPV-дроны, так и тяжелые ударные БПЛА весом от 150 до 1000 кг.
-                Скорость "Елки" достигает 230 км/ч, а ее кинетический удар гарантирует мгновенную нейтрализацию цели без применения боеприпаса.
-            </p>
-                <img src="3p_dron_elka_niz_5cd.webp" alt="">
-
-        <div class="news">
+        <div class="news2">
+        <div id="block2" class="block"></div>
+        <h2>Только щепки летят: Перехватчики "Елка" таранят любой беспилотник</h2>
+        <p>
+            "Елка" - компактный дрон, способный с большой точностью уничтожать цели на дистанции до нескольких километров.
+            Поражает как малые мультироторные агрокоптеры и FPV-дроны, так и тяжелые ударные БПЛА весом от 150 до 1000 кг.
+            Скорость "Елки" достигает 230 км/ч, а ее кинетический удар гарантирует мгновенную нейтрализацию цели без применения боеприпаса.
+        </p>
+        <div class="slider">
+            <div><img src="pictures/3p_dron_elka_niz_5cd.webp"></div>
+            <div><img src="pictures/wr-960.webp"></div>
+        </div>
+        </div>
+        <div class="news3">
+            <div id="block3" class="block"></div>
             <h2>В Самаре началось производство тонометров с дистанционной передачей данных врачу</h2>
             <p>
                 В Самарском государственном медуниверситете (СамГМУ) стартовало серийное производство тонометров с функцией
                 дистанционной передачи данных в телемедицинские системы. Проект реализован при поддержке Минпромторга России.
             </p>
-                <img src="1_526.jpg" alt="">
+            <div class="slider">
+                <div><img src="pictures/small_1770705266-0f1e60260d.jpeg"></div>
+            </div>
         </div>
     </main>
+    <script src='script.js'></script>
 </body>
 </html>
